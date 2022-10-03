@@ -25,9 +25,9 @@
     <link href="css/style.css" rel="stylesheet">
 </head>
 
-<body data-spy="scroll" data-target=".navbar" data-offset="51">
+<body data-spy="scroll" data-target=".navbar" data-offset="51" onload="loadComplete()">
  <script>
-    window.onload= ()=>{
+    function loadComplete(){
         setTimeout(()=>{
             document.getElementById("home").style.display='block';
             document.getElementById("preloader").style.display='none';
