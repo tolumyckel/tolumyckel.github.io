@@ -9900,7 +9900,7 @@ a.text-dark:hover, a.text-dark:focus {
 
 .holder {
   position: absolute;
-  top: 0;
+  top: 50%;
 }
 
 .rotate {
@@ -10124,4 +10124,19 @@ object-fit: cover;
 }
 .smaller-font{
   font-size: 0.9em;
+}
+
+.text-styl {
+  text-align: center !important;
+  animation: action 1s infinite alternate;
+}
+@keyframes notify {
+  from {
+    opacity: 0.3;
+    transform: scale(0.5);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
 }
